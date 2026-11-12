@@ -1,0 +1,25 @@
+YR-MISSION-RULES/1
+MMFCRlkcxibJd4CCe/Ru4BI7kSXU38nc1QzhUzQ3IC/g5o6qatc6fqjStRz7adq33VhtTY25+89NplNd9HyAqoaLbbrdkva2b1EtxCsmdcdR6z66UtdHJKtud/mCudlbnT2YurUMKQOpmeZZ+pEoO6r9kgjVi/mCvsCBP14YRkTEYHTcbnyEXmA/MD4Tau9rp+K7K/rgnWiDp3P75m38/GMvyfkJ/a4Gro4J9VmfNfYzbQoSkxDRXpOA5emjTKeQeaWdNfRILIdlS+5NpRPv5ArOY1Xb2BCdPoNKFswav6UvaB7TmCtNiwfJ520K9qwL9/K8ymIeBkEFv/F7i8Qg2w==
+[rules]
+schema=1
+minimumEngine=1
+revision=1
+
+; Exact difficulty record keys. Native trigger validation remains mandatory.
+[labels]
+EASY=简单
+WINEASY=简单
+NORMAL=普通
+WINNORMAL=普通
+WINPT=普通
+HARD=困难
+WINHARD=困难
+WINKN=困难
+BRUTAL=残虐
+WINBRUTAL=残虐
+WINCN=残虐
+HELL=地狱
+WINHELL=地狱
+WINDY=地狱
+EXTREME=极限
+WINEXTREME=极限
