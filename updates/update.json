@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "Tang Red Alert Trainer",
-  "version": "1.2.2",
-  "tag": "v1.2.2",
+  "version": "1.2.3",
+  "tag": "v1.2.3",
   "repository": "6494667/TangRedAlertTrainer-Releases",
-  "publishedAt": "2026-11-13T02:39:37.2148100+08:00",
-  "releaseNotes": "Tang Red Alert Trainer 1.2.2\r\n\r\n- 修复更新下载完成后未替换旧 EXE 的问题：正确识别已退出但进程对象仍保留的旧程序，避免 Windows 路径查询错误 31 中断更新。\r\n- 保留运行中进程的路径、PID 代次及更新文件校验；身份不符或文件被占用时不覆盖旧程序。\r\n- 安装记录新增原程序路径、进程核验、替换、重启及新进程信息，便于定位更新失败。\r\n- 保留顶部检查更新、启动自动检查以及 HOME 显示/最小化且不置顶的行为。\r\n\r\n本次仅更新 GUI 与内嵌运行时，DLL 版本停止维护。\r\n",
+  "publishedAt": "2026-11-13T03:52:55.0103219+08:00",
+  "releaseNotes": "Tang Red Alert Trainer 1.2.3\n\n- 修复国内网络检查更新失败：更新清单增加独立 CDN、Raw 和发布镜像入口，多源并行检查。\n- 检查清单优先尝试直连，失败后尝试系统代理；不再串行等待每个不可达源。\n- 更新提示不再等待通关规则同步；规则在独立后台线程同步，失败保留本地规则。\n- 保留发行者签名、版本比较和下载文件哈希核验；多个有效清单取最新版本。\n- 检查失败记录每个源的错误及耗时，诊断文件位于运行目录 .updates/last-check.json。\n\n仅维护 GUI 与内嵌运行时，DLL 未更新。",
   "asset": {
-    "name": "TangRedAlertTrainer-1.2.2-win-x64.zip",
-    "bytes": 9917344,
-    "sha256": "a755ca5946a02b19537914f5df0701adbe9cc5906ef8ee7862f5f987aa4b2e22",
-    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.2/TangRedAlertTrainer-1.2.2-win-x64.zip"
+    "name": "TangRedAlertTrainer-1.2.3-win-x64.zip",
+    "bytes": 9924237,
+    "sha256": "d07bdb1ce75f3c36dc561b6ee5d8d84465b50e031e2b82954e4851c75cdf66b1",
+    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.3/TangRedAlertTrainer-1.2.3-win-x64.zip"
   },
   "executable": {
     "name": "TangRedAlertTrainer.exe",
-    "bytes": 20425728,
-    "sha256": "c14ad337af06c6f2916e637660b223909264101aaa7cbc5001700a2522c5b059",
-    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.2/TangRedAlertTrainer.exe"
+    "bytes": 20444672,
+    "sha256": "56eeb5d187bafafae812d8d94f4ee527106a2da6fb9972606ef89aa3e2071cff",
+    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.3/TangRedAlertTrainer.exe"
   },
-  "signedPayload": "eyJzY2hlbWFWZXJzaW9uIjoxLCJwcm9kdWN0IjoiVGFuZyBSZWQgQWxlcnQgVHJhaW5lciIsInZlcnNpb24iOiIxLjIuMiIsInRhZyI6InYxLjIuMiIsInJlcG9zaXRvcnkiOiI2NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMiLCJwdWJsaXNoZWRBdCI6IjIwMjYtMTEtMTNUMDI6Mzk6MzcuMjE0ODEwMCswODowMCIsInJlbGVhc2VOb3RlcyI6IlRhbmcgUmVkIEFsZXJ0IFRyYWluZXIgMS4yLjJcclxuXHJcbi0g5L+u5aSN5pu05paw5LiL6L295a6M5oiQ5ZCO5pyq5pu/5o2i5penIEVYRSDnmoTpl67popjvvJrmraPnoa7or4bliKvlt7LpgIDlh7rkvYbov5vnqIvlr7nosaHku43kv53nlZnnmoTml6fnqIvluo/vvIzpgb/lhY0gV2luZG93cyDot6/lvoTmn6Xor6LplJnor68gMzEg5Lit5pat5pu05paw44CCXHJcbi0g5L+d55WZ6L+Q6KGM5Lit6L+b56iL55qE6Lev5b6E44CBUElEIOS7o+asoeWPiuabtOaWsOaWh+S7tuagoemqjO+8m+i6q+S7veS4jeespuaIluaWh+S7tuiiq+WNoOeUqOaXtuS4jeimhuebluaXp+eoi+W6j+OAglxyXG4tIOWuieijheiusOW9leaWsOWinuWOn+eoi+W6j+i3r+W+hOOAgei/m+eoi+aguOmqjOOAgeabv+aNouOAgemHjeWQr+WPiuaWsOi/m+eoi+S/oeaBr++8jOS+v+S6juWumuS9jeabtOaWsOWksei0peOAglxyXG4tIOS/neeVmemhtumDqOajgOafpeabtOaWsOOAgeWQr+WKqOiHquWKqOajgOafpeS7peWPiiBIT01FIOaYvuekui/mnIDlsI/ljJbkuJTkuI3nva7pobbnmoTooYzkuLrjgIJcclxuXHJcbuacrOasoeS7heabtOaWsCBHVUkg5LiO5YaF5bWM6L+Q6KGM5pe277yMRExMIOeJiOacrOWBnOatoue7tOaKpOOAglxyXG4iLCJhc3NldCI6eyJuYW1lIjoiVGFuZ1JlZEFsZXJ0VHJhaW5lci0xLjIuMi13aW4teDY0LnppcCIsImJ5dGVzIjo5OTE3MzQ0LCJzaGEyNTYiOiJhNzU1Y2E1OTQ2YTAyYjE5NTM3OTE0ZjVkZjA3MDFhZGJlOWNjNTkwNmVmOGVlNzg2MmY1Zjk4N2FhNGIyZTIyIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tLzY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjIvVGFuZ1JlZEFsZXJ0VHJhaW5lci0xLjIuMi13aW4teDY0LnppcCJ9LCJleGVjdXRhYmxlIjp7Im5hbWUiOiJUYW5nUmVkQWxlcnRUcmFpbmVyLmV4ZSIsImJ5dGVzIjoyMDQyNTcyOCwic2hhMjU2IjoiYzE0YWQzMzdhZjA2YzZmMjkxNmU2Mzc2NjBiMjIzOTA5MjY0MTAxYWFhN2NiYzUwMDE3MDBhMjUyMmM1YjA1OSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS82NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMvcmVsZWFzZXMvZG93bmxvYWQvdjEuMi4yL1RhbmdSZWRBbGVydFRyYWluZXIuZXhlIn19",
-  "signature": "CadDqCuXDzwBhXDMSjOZeM8WQXdV4aBYg+dPNe7EFvv5p6UaE4Na1ZO4XFJMTVZh7uY3C2HyngYTzjvg6/7v++/zPZqvHoW37GhgsuP6x5qWolAePSgamWf6nnpiMDs/MtXoQhUqSLfPJX/dk3ywP4NwrR+E0I07CQV0kZSFTEQydlEW7NNB7m8XsjfToSDGakmyNLyFjUDD8W5DbSMCK6Tpr9BzA68RdOcwgXS9Rx9XIBOTFfabEpJwQ1vTGaqQfFTNdCTRni1VxauuQrAAzbkxv27OXdnXxE2JKfbB4eMU7ExUyqTBiRn6ivZhPPYS4Rcyau8t2v8Yy6LuEJlJzA=="
+  "signedPayload": "eyJzY2hlbWFWZXJzaW9uIjoxLCJwcm9kdWN0IjoiVGFuZyBSZWQgQWxlcnQgVHJhaW5lciIsInZlcnNpb24iOiIxLjIuMyIsInRhZyI6InYxLjIuMyIsInJlcG9zaXRvcnkiOiI2NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMiLCJwdWJsaXNoZWRBdCI6IjIwMjYtMTEtMTNUMDM6NTI6NTUuMDEwMzIxOSswODowMCIsInJlbGVhc2VOb3RlcyI6IlRhbmcgUmVkIEFsZXJ0IFRyYWluZXIgMS4yLjNcblxuLSDkv67lpI3lm73lhoXnvZHnu5zmo4Dmn6Xmm7TmlrDlpLHotKXvvJrmm7TmlrDmuIXljZXlop7liqDni6znq4sgQ0RO44CBUmF3IOWSjOWPkeW4g+mVnOWDj+WFpeWPo++8jOWkmua6kOW5tuihjOajgOafpeOAglxuLSDmo4Dmn6XmuIXljZXkvJjlhYjlsJ3or5Xnm7Tov57vvIzlpLHotKXlkI7lsJ3or5Xns7vnu5/ku6PnkIbvvJvkuI3lho3kuLLooYznrYnlvoXmr4/kuKrkuI3lj6/ovr7mupDjgIJcbi0g5pu05paw5o+Q56S65LiN5YaN562J5b6F6YCa5YWz6KeE5YiZ5ZCM5q2l77yb6KeE5YiZ5Zyo54us56uL5ZCO5Y+w57q/56iL5ZCM5q2l77yM5aSx6LSl5L+d55WZ5pys5Zyw6KeE5YiZ44CCXG4tIOS/neeVmeWPkeihjOiAheetvuWQjeOAgeeJiOacrOavlOi+g+WSjOS4i+i9veaWh+S7tuWTiOW4jOaguOmqjO+8m+WkmuS4quacieaViOa4heWNleWPluacgOaWsOeJiOacrOOAglxuLSDmo4Dmn6XlpLHotKXorrDlvZXmr4/kuKrmupDnmoTplJnor6/lj4rogJfml7bvvIzor4rmlq3mlofku7bkvY3kuo7ov5DooYznm67lvZUgLnVwZGF0ZXMvbGFzdC1jaGVjay5qc29u44CCXG5cbuS7hee7tOaKpCBHVUkg5LiO5YaF5bWM6L+Q6KGM5pe277yMRExMIOacquabtOaWsOOAgiIsImFzc2V0Ijp7Im5hbWUiOiJUYW5nUmVkQWxlcnRUcmFpbmVyLTEuMi4zLXdpbi14NjQuemlwIiwiYnl0ZXMiOjk5MjQyMzcsInNoYTI1NiI6ImQwN2JkYjFjZTc1ZjNjMzZkYzU2MWI2ZWU1ZDhkODQ0NjViNTBlMDMxZTJiODI5NTRlNDg1MWM3NWNkZjY2YjEiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vNjQ5NDY2Ny9UYW5nUmVkQWxlcnRUcmFpbmVyLVJlbGVhc2VzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjIuMy9UYW5nUmVkQWxlcnRUcmFpbmVyLTEuMi4zLXdpbi14NjQuemlwIn0sImV4ZWN1dGFibGUiOnsibmFtZSI6IlRhbmdSZWRBbGVydFRyYWluZXIuZXhlIiwiYnl0ZXMiOjIwNDQ0NjcyLCJzaGEyNTYiOiI1NmVlYjVkMTg3YmFmYWZhZTgxMmQ4ZDk0ZjRlZTUyNzEwNmEyZGE2ZmI5OTcyNjA2ZWY4OWFhM2UyMDcxY2ZmIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tLzY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjMvVGFuZ1JlZEFsZXJ0VHJhaW5lci5leGUifX0=",
+  "signature": "dQ1haInNTjZUadCmoWY3fS91Y/SabIiZezfRTlNhQfsxfwcfJF/zBeihRwyRF7U358QlJBhPaddj3+u0aFqaDIkL+sSpyDzhkWPjVcXplyF1ZqHIxOGkdpx++MGatlmVScshfFuPrN53574OlpglB5f4TRBqGaYkAVZ0Kuv9wJhP3vA8MfWQ9+5XHzMTF/2p9uKs+nNylq/Bq5ZI5/+IAm/X2yWLWHLGj6MrXeSygQHDQfOzIBXa1bUKKwmEMgFTdyQqVhYBMJ0gYCAMZGi9SGWQpeycxWCCufM80dMdWOc1mA0PCAPGVPRiquGjzkhrKA8PGf72+oU4/XnnX7uBag=="
 }
