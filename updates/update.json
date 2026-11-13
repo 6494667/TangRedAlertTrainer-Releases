@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "Tang Red Alert Trainer",
-  "version": "1.2.5",
-  "tag": "v1.2.5",
+  "version": "1.2.7",
+  "tag": "v1.2.7",
   "repository": "6494667/TangRedAlertTrainer-Releases",
-  "publishedAt": "2026-11-13T13:11:59.8805743+08:00",
-  "releaseNotes": "# 1.2.5 软件与通关规则统一更新\r\n\r\n- 启动及顶部“检查更新”同时检查软件版本与通关规则版本，统一显示检查进度及结果。\r\n- 只有规则更新时也会提示，显示本地/远程规则版本，支持确认更新或跳过本次。\r\n- 规则确认后安装，无需重启软件，下次读取地图任务时生效；跳过、取消不安装规则。\r\n- 软件和规则同时更新时，确认后先安装规则，再下载并安装软件。\r\n- 部分检查失败时显示对应错误，仍允许更新已成功检查的项目；保留本地规则并拒绝规则降级。\r\n- 保持 ghfast 优先、备用更新源、软件四线程分块下载及签名校验。\r\n",
+  "publishedAt": "2026-11-13T14:17:16.0540313+08:00",
+  "releaseNotes": "## 1.2.7\n- 软件更新和通关规则优先从 Gitee 检查，保留旧渠道作为网络备用。\n- 修复 Gitee 附件 CDN 跳转兼容，分块不受支持时自动切换完整文件下载。\n- 保留统一更新详情、确认/跳过、下载速度与进度、自动替换重启。\n- 发布者签名、文件大小和 SHA256 校验保持启用。\n- 本次仅更新 GUI，DLL 不再维护。",
   "asset": {
-    "name": "TangRedAlertTrainer-1.2.5-win-x64.zip",
-    "bytes": 9961561,
-    "sha256": "19a20f9617aa0c8e673487a29bbe28b6d178d883a5a091a301ba6943c744ffb9",
-    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.5/TangRedAlertTrainer-1.2.5-win-x64.zip"
+    "name": "TangRedAlertTrainer-1.2.7-win-x64.zip",
+    "bytes": 9969729,
+    "sha256": "3b04ee4c38840db8f4b176bc50be0919ff0df66b5fc880b03a855dc75f7a3329",
+    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.7/TangRedAlertTrainer-1.2.7-win-x64.zip"
   },
   "executable": {
     "name": "TangRedAlertTrainer.exe",
-    "bytes": 20538368,
-    "sha256": "7ab7e84c681abaf8e0247de447e199efdb6895a93b177c0f7f95741c80ea783b",
-    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.5/TangRedAlertTrainer.exe"
+    "bytes": 20563968,
+    "sha256": "4acf3ee17191e075432320184cd83278c1a9537ab2290eee5fb044e5a470a322",
+    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.7/TangRedAlertTrainer.exe"
   },
-  "signedPayload": "eyJzY2hlbWFWZXJzaW9uIjoxLCJwcm9kdWN0IjoiVGFuZyBSZWQgQWxlcnQgVHJhaW5lciIsInZlcnNpb24iOiIxLjIuNSIsInRhZyI6InYxLjIuNSIsInJlcG9zaXRvcnkiOiI2NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMiLCJwdWJsaXNoZWRBdCI6IjIwMjYtMTEtMTNUMTM6MTE6NTkuODgwNTc0MyswODowMCIsInJlbGVhc2VOb3RlcyI6IiMgMS4yLjUg6L2v5Lu25LiO6YCa5YWz6KeE5YiZ57uf5LiA5pu05pawXHJcblxyXG4tIOWQr+WKqOWPiumhtumDqOKAnOajgOafpeabtOaWsOKAneWQjOaXtuajgOafpei9r+S7tueJiOacrOS4jumAmuWFs+inhOWImeeJiOacrO+8jOe7n+S4gOaYvuekuuajgOafpei/m+W6puWPiue7k+aenOOAglxyXG4tIOWPquacieinhOWImeabtOaWsOaXtuS5n+S8muaPkOekuu+8jOaYvuekuuacrOWcsC/ov5znqIvop4TliJnniYjmnKzvvIzmlK/mjIHnoa7orqTmm7TmlrDmiJbot7Pov4fmnKzmrKHjgIJcclxuLSDop4TliJnnoa7orqTlkI7lronoo4XvvIzml6DpnIDph43lkK/ova/ku7bvvIzkuIvmrKHor7vlj5blnLDlm77ku7vliqHml7bnlJ/mlYjvvJvot7Pov4fjgIHlj5bmtojkuI3lronoo4Xop4TliJnjgIJcclxuLSDova/ku7blkozop4TliJnlkIzml7bmm7TmlrDml7bvvIznoa7orqTlkI7lhYjlronoo4Xop4TliJnvvIzlho3kuIvovb3lubblronoo4Xova/ku7bjgIJcclxuLSDpg6jliIbmo4Dmn6XlpLHotKXml7bmmL7npLrlr7nlupTplJnor6/vvIzku43lhYHorrjmm7TmlrDlt7LmiJDlip/mo4Dmn6XnmoTpobnnm67vvJvkv53nlZnmnKzlnLDop4TliJnlubbmi5Lnu53op4TliJnpmY3nuqfjgIJcclxuLSDkv53mjIEgZ2hmYXN0IOS8mOWFiOOAgeWkh+eUqOabtOaWsOa6kOOAgei9r+S7tuWbm+e6v+eoi+WIhuWdl+S4i+i9veWPiuetvuWQjeagoemqjOOAglxyXG4iLCJhc3NldCI6eyJuYW1lIjoiVGFuZ1JlZEFsZXJ0VHJhaW5lci0xLjIuNS13aW4teDY0LnppcCIsImJ5dGVzIjo5OTYxNTYxLCJzaGEyNTYiOiIxOWEyMGY5NjE3YWEwYzhlNjczNDg3YTI5YmJlMjhiNmQxNzhkODgzYTVhMDkxYTMwMWJhNjk0M2M3NDRmZmI5IiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tLzY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjUvVGFuZ1JlZEFsZXJ0VHJhaW5lci0xLjIuNS13aW4teDY0LnppcCJ9LCJleGVjdXRhYmxlIjp7Im5hbWUiOiJUYW5nUmVkQWxlcnRUcmFpbmVyLmV4ZSIsImJ5dGVzIjoyMDUzODM2OCwic2hhMjU2IjoiN2FiN2U4NGM2ODFhYmFmOGUwMjQ3ZGU0NDdlMTk5ZWZkYjY4OTVhOTNiMTc3YzBmN2Y5NTc0MWM4MGVhNzgzYiIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS82NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMvcmVsZWFzZXMvZG93bmxvYWQvdjEuMi41L1RhbmdSZWRBbGVydFRyYWluZXIuZXhlIn19",
-  "signature": "Ze4j8ANLrt8F4j5vivnTv6JJybDgFwuPvogsDxMSJPEldEUfYJxM8R2uyTpxRsqLpGiTV6Yy3W3RNupc6at6tmWi8FfSiRpN/LkRQAdGbEtnq4PNKAIt/e6DhHZ9nJ1z63S1pofQjM8vCaK2KHcWZlKvlj0ZCdh6trDeqIjzM3a7q1Ff0+bdfS9f/rAivhrTSjHDm2Dx3ldr4jL+sl0m0eOBEbN5dFmrEMre9DEHMioZu/l2i4vAGdEWHghI0d66HWSszEZUNWC9kkY4KFNfxD508hWmMZzrHqMQe8d1ju9Ccnb6lgm86xXb8aMXQZHmAHg6qwUrlWtFE2ffL9FOVg=="
+  "signedPayload": "eyJzY2hlbWFWZXJzaW9uIjoxLCJwcm9kdWN0IjoiVGFuZyBSZWQgQWxlcnQgVHJhaW5lciIsInZlcnNpb24iOiIxLjIuNyIsInRhZyI6InYxLjIuNyIsInJlcG9zaXRvcnkiOiI2NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMiLCJwdWJsaXNoZWRBdCI6IjIwMjYtMTEtMTNUMTQ6MTc6MTYuMDU0MDMxMyswODowMCIsInJlbGVhc2VOb3RlcyI6IiMjIDEuMi43XG4tIOi9r+S7tuabtOaWsOWSjOmAmuWFs+inhOWImeS8mOWFiOS7jiBHaXRlZSDmo4Dmn6XvvIzkv53nlZnml6fmuKDpgZPkvZzkuLrnvZHnu5zlpIfnlKjjgIJcbi0g5L+u5aSNIEdpdGVlIOmZhOS7tiBDRE4g6Lez6L2s5YW85a6577yM5YiG5Z2X5LiN5Y+X5pSv5oyB5pe26Ieq5Yqo5YiH5o2i5a6M5pW05paH5Lu25LiL6L2944CCXG4tIOS/neeVmee7n+S4gOabtOaWsOivpuaDheOAgeehruiupC/ot7Pov4fjgIHkuIvovb3pgJ/luqbkuI7ov5vluqbjgIHoh6rliqjmm7/mjaLph43lkK/jgIJcbi0g5Y+R5biD6ICF562+5ZCN44CB5paH5Lu25aSn5bCP5ZKMIFNIQTI1NiDmoKHpqozkv53mjIHlkK/nlKjjgIJcbi0g5pys5qyh5LuF5pu05pawIEdVSe+8jERMTCDkuI3lho3nu7TmiqTjgIIiLCJhc3NldCI6eyJuYW1lIjoiVGFuZ1JlZEFsZXJ0VHJhaW5lci0xLjIuNy13aW4teDY0LnppcCIsImJ5dGVzIjo5OTY5NzI5LCJzaGEyNTYiOiIzYjA0ZWU0YzM4ODQwZGI4ZjRiMTc2YmM1MGJlMDkxOWZmMGRmNjZiNWZjODgwYjAzYTg1NWRjNzVmN2EzMzI5IiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tLzY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci0xLjIuNy13aW4teDY0LnppcCJ9LCJleGVjdXRhYmxlIjp7Im5hbWUiOiJUYW5nUmVkQWxlcnRUcmFpbmVyLmV4ZSIsImJ5dGVzIjoyMDU2Mzk2OCwic2hhMjU2IjoiNGFjZjNlZTE3MTkxZTA3NTQzMjMyMDE4NGNkODMyNzhjMWE5NTM3YWIyMjkwZWVlNWZiMDQ0ZTVhNDcwYTMyMiIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS82NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMvcmVsZWFzZXMvZG93bmxvYWQvdjEuMi43L1RhbmdSZWRBbGVydFRyYWluZXIuZXhlIn19",
+  "signature": "XPXqIisop15LE6j+DkVIx8N9MDXN1oWk03vbLj2L9wWZCBM45kN+oLcXypuqWKFSJ2uxdyiTkW5SoZH3zE6I3LPOP700hg6xwzsOWBukEOcTbBBsiknlev0EtTbeLPM8KcEkhu480nVY0A7thnzbe1InEwV29dDlxAlp9JdvAMd9cyr5TwL4B279sLG8cGK3CDiBm3Gwo2IkfRS+6mSj36M0vd9J+NcJHOrTiy8aJvGNpw/H0GrwE6vqGlciu97t2tzK5ql4FPsAAChOzjQLoJk4QXkYyxnQtgpsJDf0uO/lJ40ug+Z/k1Gf40UyU3vgGXBPaZ342fH6Vci93J778A=="
 }
