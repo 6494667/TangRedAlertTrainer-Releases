@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "Tang Red Alert Trainer",
-  "version": "1.2.9",
-  "tag": "v1.2.9",
+  "version": "1.2.10",
+  "tag": "v1.2.10",
   "repository": "6494667/TangRedAlertTrainer-Releases",
-  "publishedAt": "2026-11-15T16:18:03.9466780+08:00",
-  "releaseNotes": "Tang Red Alert Trainer 1.2.9\r\n\r\n- 修复部分地图点击“立即胜利”未弹出难度选择的问题，支持默认路线、编号难度及多玩家槽位的同难度记录。\r\n- 难度名称、编号匹配、触发器标签及地图记录映射统一迁移到独立签名规则包；Gitee 为首选源，GitHub 同步备用。\r\n- 通关匹配规则在检查更新时及后台定时静默更新，无需确认或重启软件；下次查询任务或难度时生效。软件本体更新仍需用户确认。\r\n- 增加签名校验、原子替换、取消与版本回退保护，规则更新失败沿用本地版本。\r\n\r\n规则匹配引擎 2 需要本版或更新版本。更新后请关闭旧版 GUI 并重新启动游戏，以加载新的内嵌运行时。\r\n",
+  "publishedAt": "2026-11-15T16:32:55.1567688+08:00",
+  "releaseNotes": "Tang Red Alert Trainer 1.2.10\r\n\r\n- 修复修改 EXE 文件名后更新安装失败、每次打开重复提示更新的问题。\r\n- 更新始终替换并重启当前运行文件的原路径，支持中文名、空格及大写 EXE 扩展名，不改动同目录的其他副本。\r\n- 保留进程身份、签名及哈希校验、安装锁、旧版备份和失败回滚。\r\n\r\n已通过8组真实EXE安装回归。通关匹配规则继续使用revision 2。\r\n",
   "asset": {
-    "name": "TangRedAlertTrainer-1.2.9-win-x64.zip",
-    "bytes": 10016532,
-    "sha256": "8415960b523cfaed19f8c023e2d1e180491428a3fad90890a769f4b7ffebdb07",
-    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.9/TangRedAlertTrainer-1.2.9-win-x64.zip"
+    "name": "TangRedAlertTrainer-1.2.10-win-x64.zip",
+    "bytes": 10018579,
+    "sha256": "e0eb4ca97d56117b2d94bbe61d2cb0004733ffa30170ae21fee30a9e644b5cfe",
+    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.10/TangRedAlertTrainer-1.2.10-win-x64.zip"
   },
   "executable": {
     "name": "TangRedAlertTrainer.exe",
-    "bytes": 20670464,
-    "sha256": "03069fedb35be2747527ea361fc3ad79a4b8a37c9cbfbd113091f68f92b1afc8",
-    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.9/TangRedAlertTrainer.exe"
+    "bytes": 20676096,
+    "sha256": "80f0cd08c3c5011fd54ecff742054fac55f7dbe5c44a9b586b565ce0f1dbbd58",
+    "url": "https://github.com/6494667/TangRedAlertTrainer-Releases/releases/download/v1.2.10/TangRedAlertTrainer.exe"
   },
-  "signedPayload": "eyJzY2hlbWFWZXJzaW9uIjoxLCJwcm9kdWN0IjoiVGFuZyBSZWQgQWxlcnQgVHJhaW5lciIsInZlcnNpb24iOiIxLjIuOSIsInRhZyI6InYxLjIuOSIsInJlcG9zaXRvcnkiOiI2NDk0NjY3L1RhbmdSZWRBbGVydFRyYWluZXItUmVsZWFzZXMiLCJwdWJsaXNoZWRBdCI6IjIwMjYtMTEtMTVUMTY6MTg6MDMuOTQ2Njc4MCswODowMCIsInJlbGVhc2VOb3RlcyI6IlRhbmcgUmVkIEFsZXJ0IFRyYWluZXIgMS4yLjlcclxuXHJcbi0g5L+u5aSN6YOo5YiG5Zyw5Zu+54K55Ye74oCc56uL5Y2z6IOc5Yip4oCd5pyq5by55Ye66Zq+5bqm6YCJ5oup55qE6Zeu6aKY77yM5pSv5oyB6buY6K6k6Lev57q/44CB57yW5Y+36Zq+5bqm5Y+K5aSa546p5a625qe95L2N55qE5ZCM6Zq+5bqm6K6w5b2V44CCXHJcbi0g6Zq+5bqm5ZCN56ew44CB57yW5Y+35Yy56YWN44CB6Kem5Y+R5Zmo5qCH562+5Y+K5Zyw5Zu+6K6w5b2V5pig5bCE57uf5LiA6L+B56e75Yiw54us56uL562+5ZCN6KeE5YiZ5YyF77ybR2l0ZWUg5Li66aaW6YCJ5rqQ77yMR2l0SHViIOWQjOatpeWkh+eUqOOAglxyXG4tIOmAmuWFs+WMuemFjeinhOWImeWcqOajgOafpeabtOaWsOaXtuWPiuWQjuWPsOWumuaXtumdmem7mOabtOaWsO+8jOaXoOmcgOehruiupOaIlumHjeWQr+i9r+S7tu+8m+S4i+asoeafpeivouS7u+WKoeaIlumavuW6puaXtueUn+aViOOAgui9r+S7tuacrOS9k+abtOaWsOS7jemcgOeUqOaIt+ehruiupOOAglxyXG4tIOWinuWKoOetvuWQjeagoemqjOOAgeWOn+WtkOabv+aNouOAgeWPlua2iOS4jueJiOacrOWbnumAgOS/neaKpO+8jOinhOWImeabtOaWsOWksei0peayv+eUqOacrOWcsOeJiOacrOOAglxyXG5cclxu6KeE5YiZ5Yy56YWN5byV5pOOIDIg6ZyA6KaB5pys54mI5oiW5pu05paw54mI5pys44CC5pu05paw5ZCO6K+35YWz6Zet5pen54mIIEdVSSDlubbph43mlrDlkK/liqjmuLjmiI/vvIzku6XliqDovb3mlrDnmoTlhoXltYzov5DooYzml7bjgIJcclxuIiwiYXNzZXQiOnsibmFtZSI6IlRhbmdSZWRBbGVydFRyYWluZXItMS4yLjktd2luLXg2NC56aXAiLCJieXRlcyI6MTAwMTY1MzIsInNoYTI1NiI6Ijg0MTU5NjBiNTIzY2ZhZWQxOWY4YzAyM2UyZDFlMTgwNDkxNDI4YTNmYWQ5MDg5MGE3NjlmNGI3ZmZlYmRiMDciLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vNjQ5NDY2Ny9UYW5nUmVkQWxlcnRUcmFpbmVyLVJlbGVhc2VzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjIuOS9UYW5nUmVkQWxlcnRUcmFpbmVyLTEuMi45LXdpbi14NjQuemlwIn0sImV4ZWN1dGFibGUiOnsibmFtZSI6IlRhbmdSZWRBbGVydFRyYWluZXIuZXhlIiwiYnl0ZXMiOjIwNjcwNDY0LCJzaGEyNTYiOiIwMzA2OWZlZGIzNWJlMjc0NzUyN2VhMzYxZmMzYWQ3OWE0YjhhMzdjOWNiZmJkMTEzMDkxZjY4ZjkyYjFhZmM4IiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tLzY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjkvVGFuZ1JlZEFsZXJ0VHJhaW5lci5leGUifX0=",
-  "signature": "TSqTEKsOBHyj5TfSCNN73oSWJYHHGLfIjYQWm814H5vVWit/lr0UlBcjfU4ITJ3xZpmKC15GVash4eI7RSLzA/pokx1Q6AvlTRn4+Cc/yyqBXlfe3yunR1fv5OtD2mNoxmTLfd5SgXiEBcUrjManzOgIrOaHOSStNWTaVW+9tR+4tC2gTbcjZq2gZ8WhLV7gQKkbaOKdkjg2QHGhM97ZfB0I1xvgdxQ9i0SMwcmGffJaH1TXO0WMEO9aMgvVRT+RAs52ltjTZJPCApfPeSCODhvreGNiShnaSBy0AfR93RjS8+p8b1yzv+XyVZ8jmVdctFDerzA8wyB9pEr1k+Lskw=="
+  "signedPayload": "eyJzY2hlbWFWZXJzaW9uIjoxLCJwcm9kdWN0IjoiVGFuZyBSZWQgQWxlcnQgVHJhaW5lciIsInZlcnNpb24iOiIxLjIuMTAiLCJ0YWciOiJ2MS4yLjEwIiwicmVwb3NpdG9yeSI6IjY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcyIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMS0xNVQxNjozMjo1NS4xNTY3Njg4KzA4OjAwIiwicmVsZWFzZU5vdGVzIjoiVGFuZyBSZWQgQWxlcnQgVHJhaW5lciAxLjIuMTBcclxuXHJcbi0g5L+u5aSN5L+u5pS5IEVYRSDmlofku7blkI3lkI7mm7TmlrDlronoo4XlpLHotKXjgIHmr4/mrKHmiZPlvIDph43lpI3mj5DnpLrmm7TmlrDnmoTpl67popjjgIJcclxuLSDmm7TmlrDlp4vnu4jmm7/mjaLlubbph43lkK/lvZPliY3ov5DooYzmlofku7bnmoTljp/ot6/lvoTvvIzmlK/mjIHkuK3mloflkI3jgIHnqbrmoLzlj4rlpKflhpkgRVhFIOaJqeWxleWQje+8jOS4jeaUueWKqOWQjOebruW9leeahOWFtuS7luWJr+acrOOAglxyXG4tIOS/neeVmei/m+eoi+i6q+S7veOAgeetvuWQjeWPiuWTiOW4jOagoemqjOOAgeWuieijhemUgeOAgeaXp+eJiOWkh+S7veWSjOWksei0peWbnua7muOAglxyXG5cclxu5bey6YCa6L+HOOe7hOecn+WunkVYReWuieijheWbnuW9kuOAgumAmuWFs+WMuemFjeinhOWImee7p+e7reS9v+eUqHJldmlzaW9uIDLjgIJcclxuIiwiYXNzZXQiOnsibmFtZSI6IlRhbmdSZWRBbGVydFRyYWluZXItMS4yLjEwLXdpbi14NjQuemlwIiwiYnl0ZXMiOjEwMDE4NTc5LCJzaGEyNTYiOiJlMGViNGNhOTdkNTYxMTdiMmQ5NGJiZTYxZDJjYjAwMDQ3MzNmZmEzMDE3MGFlMjFmZWUzMGE5ZTY0NGI1Y2ZlIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tLzY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjEwL1RhbmdSZWRBbGVydFRyYWluZXItMS4yLjEwLXdpbi14NjQuemlwIn0sImV4ZWN1dGFibGUiOnsibmFtZSI6IlRhbmdSZWRBbGVydFRyYWluZXIuZXhlIiwiYnl0ZXMiOjIwNjc2MDk2LCJzaGEyNTYiOiI4MGYwY2QwOGMzYzUwMTFmZDU0ZWNmZjc0MjA1NGZhYzU1ZjdkYmU1YzQ0YTliNTg2YjU2NWNlMGYxZGJiZDU4IiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tLzY0OTQ2NjcvVGFuZ1JlZEFsZXJ0VHJhaW5lci1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjEwL1RhbmdSZWRBbGVydFRyYWluZXIuZXhlIn19",
+  "signature": "b0rS7f70gf8mEz9ByPOxpsOVbrofCQEKEKVG18O4VE98kKUFekKWcdntRjf2d0UyiY3VLRCD2rSJa6wMcG/1iH3ZEhCPUfGRSA3ijDkLwbDvbAbgdkFf4/qV8DFGIJaldmfguE90QfR305W6nV3NCcg9RaxwpDqMcWNalJQN5NNug5XjrHyBgU+KK9CN09TwAsNRSxnaQ8jOvhqDuhnE1fwwx6dQ7tqulYwZ/zvuKgq7ID0cCGBoG8h/07VQWyacv/CpOtNGXKhAXXeOM549SjlpfCBB/ZVw31UUjTa/z181BRM+dohbklC3wGlfPTqVHJADf6jdFcen01l1jepWXw=="
 }
