@@ -1,9 +1,9 @@
 YR-MISSION-RULES/1
-MMFCRlkcxibJd4CCe/Ru4BI7kSXU38nc1QzhUzQ3IC/g5o6qatc6fqjStRz7adq33VhtTY25+89NplNd9HyAqoaLbbrdkva2b1EtxCsmdcdR6z66UtdHJKtud/mCudlbnT2YurUMKQOpmeZZ+pEoO6r9kgjVi/mCvsCBP14YRkTEYHTcbnyEXmA/MD4Tau9rp+K7K/rgnWiDp3P75m38/GMvyfkJ/a4Gro4J9VmfNfYzbQoSkxDRXpOA5emjTKeQeaWdNfRILIdlS+5NpRPv5ArOY1Xb2BCdPoNKFswav6UvaB7TmCtNiwfJ520K9qwL9/K8ymIeBkEFv/F7i8Qg2w==
+cwVEvLjpxafsesnp5q5S4uVnQXH6CWfsrhosaEaP6OdBSuQobcvoFQo9xuJY42zJ+TKRXeykAiVW+CPK6ptK8Ssn81h/CB/lehUxwDYHqznIEm9RXR5zHHBZVheAfz6H3z4dPhZFyBVDLaZJY2t78iqW38VlCc8z5t4HBnT9M5Bz6Sf/ZtX1MISvwB0AWvSJrteVZMf5+siotXZ5BhAUCxCeL2wFUR3jPvEQw1GoG5ajAW2HhBO7VpX2n8eeXD4alfJOVxb2LWygNLq9gx1qV5XwsuUud89NIirk3r8UEicvDttukn8jgGgYNdVhPfb2Q4bTLHiuir/KyScuJIk7Iw==
 [rules]
-schema=1
-minimumEngine=1
-revision=1
+schema=2
+minimumEngine=2
+revision=2
 
 ; Exact difficulty record keys. Native trigger validation remains mandatory.
 [labels]
@@ -23,3 +23,37 @@ WINHELL=地狱
 WINDY=地狱
 EXTREME=极限
 WINEXTREME=极限
+
+; Matching data is signed and independently versioned. No code or addresses.
+[matching]
+recordPrefix=kk_save_
+slotSuffix=_p
+familyPrefix=WIN
+labelSuffixes=模式|难度
+labelPrefixes=开启|选择|进入
+numberedPrefixes=难度|难
+ordinalTokens=一|二|三|四|五|六|七|八|九|十
+numberLabel=难度
+defaultLabel=默认难度
+customLabel=自定义 · 
+labelOrder=简单|普通|困难|残虐|地狱|极限
+maxNumber=99
+inferSelectorLabels=1
+inferDefaultRoute=1
+
+; Verified numbered difficulty records, merged across native player slots.
+[map:11a6f8209b480c35]
+kk_save_SL_p0=SL|默认难度
+kk_save_SL_p2=SL|默认难度
+kk_save_NDY_p0=NDY|难度1
+kk_save_NDY_p2=NDY|难度1
+kk_save_ND2_p0=ND2|难度2
+kk_save_ND2_p2=ND2|难度2
+kk_save_NDS_p0=NDS|难度3
+kk_save_NDS_p2=NDS|难度3
+kk_save_ND4_p0=ND4|难度4
+kk_save_ND4_p2=ND4|难度4
+kk_save_ND5_p0=ND5|难度5
+kk_save_ND5_p2=ND5|难度5
+kk_save_ND6_p0=ND6|难度6
+kk_save_ND6_p2=ND6|难度6
